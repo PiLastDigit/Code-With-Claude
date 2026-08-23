@@ -5,7 +5,7 @@ RTFx: 310.4x (5.5s for 28:37.94 audio)
 Processing: 24.4s
 ────────────────────────────────────────────────────────────
 ## Thesis
-The central argument of the talk is that the rapid advancement of AI-assisted coding has fundamentally shifted engineering bottlenecks, rendering traditional software development processes obsolete. Fiona Feng, lead of Cloud Code and CoWork Engineering at Anthropic, argues that engineering leaders must adopt a "growth mindset" to continuously audit and dismantle outdated workflows—such as rigid planning, manual code reviews, and siloed team structures—in favor of AI-augmented, agile practices that prioritize high-level product sense, verification, and team autonomy.
+The central argument of the talk is that the rapid advancement of AI-assisted coding has fundamentally shifted engineering bottlenecks, rendering traditional software development processes obsolete. Fiona Fung, lead of Claude Code and CoWork Engineering at Anthropic, argues that engineering leaders must adopt a "growth mindset" to continuously audit and dismantle outdated workflows—such as rigid planning, manual code reviews, and siloed team structures—in favor of AI-augmented, agile practices that prioritize high-level product sense, verification, and team autonomy.
 
 ## Key Points
 *   **The Shift in Bottlenecks:** Historically, engineering bandwidth and coding throughput were the primary constraints in software development, but AI has made code generation cheap and fast, shifting the new bottlenecks toward verification, code review, and cross-functional alignment.

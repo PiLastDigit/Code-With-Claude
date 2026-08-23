@@ -5,18 +5,18 @@ RTFx: 267.3x (6.2s for 27:42.11 audio)
 Processing: 25.1s
 ────────────────────────────────────────────────────────────
 ## Thesis
-The central argument of the presentation is that as AI agents become more sophisticated and integrated into production environments, traditional, static evaluation methods are no longer sufficient. Instead, developers must adopt a continuous, dual-layered evaluation strategy that combines offline benchmarks (like the newly introduced ByteBench) with online, production-based monitoring (such as trace clustering and A/B testing) to effectively track, diagnose, and improve agent performance at scale.
+The central argument of the presentation is that as AI agents become more sophisticated and integrated into production environments, traditional, static evaluation methods are no longer sufficient. Instead, developers must adopt a continuous, dual-layered evaluation strategy that combines offline benchmarks (like the newly introduced ViBench) with online, production-based monitoring (such as trace clustering and A/B testing) to effectively track, diagnose, and improve agent performance at scale.
 
 ## Key Points
 - Replit’s AI agent operates in an "extreme" coding environment where users provide only natural language specifications, requiring a fundamental shift in how the company evaluates agent performance compared to standard software development tools.
 - The speaker argues that evaluation should move away from being a simple "boolean flag" or gatekeeper and instead function as a continuous engine that drives daily improvements.
 - Replit utilizes a two-pillar evaluation system: offline benchmarks for pre-release validation and online production monitoring to capture real-world usage data.
-- To address gaps in existing benchmarks like SWE-bench, Replit introduced "ByteBench," an open-source, end-to-end benchmark that uses real-world user traces and automated evaluators to test applications built from scratch.
-- ByteBench features various complexity levels, such as "vibe-on-vibe" (building new features on top of agent-generated code), which highlights the difficulty models face when extending their own previous work.
+- To address gaps in existing benchmarks like SWE-bench, Replit introduced "ViBench," an open-source, end-to-end benchmark that uses real-world user traces and automated evaluators to test applications built from scratch.
+- ViBench features various complexity levels, such as "vibe-on-vibe" (building new features on top of agent-generated code), which highlights the difficulty models face when extending their own previous work.
 - The online evaluation pillar, dubbed "Telescope," involves clustering millions of daily production traces to identify semantic patterns in agent failures, allowing the team to generate automated patches.
 - A/B testing is essential for navigating the ambiguity of real-world performance, where metrics like cost, speed, and user sentiment often provide conflicting signals that require human product judgment to resolve.
 - The speaker emphasizes that while agents can automate much of the debugging and patching process, human "taste" and product philosophy remain critical for prioritizing which issues to fix and determining the ultimate user experience.
-- The presentation concludes by encouraging the broader AI community to adopt these continuous evaluation practices and contribute to open-source initiatives like ByteBench to collectively advance the field of AI-driven coding.
+- The presentation concludes by encouraging the broader AI community to adopt these continuous evaluation practices and contribute to open-source initiatives like ViBench to collectively advance the field of AI-driven coding.
 
 ## Chapters
 

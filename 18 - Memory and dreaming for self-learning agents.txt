@@ -15,7 +15,7 @@ Anthropic is introducing "Memory" and "Dreaming" as critical new primitives with
 *   **Portable API:** The memory system is accessible via a standalone API, allowing developers to integrate their own pipelines for PII scanning, manual review, or cloning data into external systems without being locked into the platform.
 *   **Introduction of "Dreaming":** Dreaming is a new research preview feature that runs as an asynchronous, out-of-band process to analyze patterns and mistakes across multiple agent sessions and automatically update the memory state.
 *   **Benefits of Dreaming:** By operating outside the "hot path" of active tasks, Dreaming allows for large-scale, cross-agent learning and deduplication without adding latency to individual agent performance.
-*   **Real-World Impact:** Early testing with partners like Rakuten and Harvey has shown significant improvements, including a 90% reduction in first-pass mistakes and a sixfold increase in task completion rates.
+*   **Real-World Impact:** Two partners reported early results: Rakuten saw a 90% reduction in first-pass mistakes in its internal knowledge agents, and Harvey saw a sixfold increase in task completion rate on one scenario in a legal benchmark.
 *   **Future Vision:** Anthropic views the combination of real-time Memory (for immediate task context) and Dreaming (for long-term knowledge curation) as the foundation for building sophisticated, scalable multi-agent systems that improve continuously over time.
 
 ## Chapters

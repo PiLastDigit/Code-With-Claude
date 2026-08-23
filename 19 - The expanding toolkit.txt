@@ -14,7 +14,7 @@ The central argument of the presentation is that the development paradigm for AI
 *   **Context Management:** With features like 1,000,000 context length, server-side compaction, and context editing, the need for manual memory systems and RAG-based chunking has been greatly reduced.
 *   **Context Pruning:** To optimize token usage, developers should periodically clear stale tool results (like screenshots or search logs) while retaining the core decisions those tools informed.
 *   **Integrated Code Execution:** Claude now features a built-in, hosted sandbox for code execution, eliminating the need for developers to manually spin up VMs, parse tracebacks, and manage the "write-run-fix" loop externally.
-*   **Advancements in Computer Use:** The model now supports native resolution screenshots up to 1440p, removing the need for complex scaling math and pixel-tracking code, which has helped improve performance on the "OS World" evaluation from under 50% to nearly 80%.
+*   **Advancements in Computer Use:** The model now supports native resolution screenshots up to 1440p, removing the need for complex scaling math and pixel-tracking code, which has helped improve performance on the OSWorld evaluation from under 50% to nearly 80%.
 *   **Agentic Coding Loops:** By leveraging "Claude in Chrome," agents can now autonomously navigate the web, reproduce bugs, and test fixes in a human-like way, closing the loop between development and quality assurance.
 *   **Strategic Focus:** Developers should stop writing code that compensates for model unreliability, as that work will likely become obsolete; instead, they should focus on building the "front door" for agents by integrating unique data, custom tools, and specific business logic.
 

@@ -5,10 +5,10 @@ RTFx: 327.6x (5.6s for 30:50.03 audio)
 Processing: 32.0s
 ────────────────────────────────────────────────────────────
 ## Thesis
-Sesh Nala argues that as AI agents shift from performing narrow coding tasks to building entire complex systems, software engineering must transition from artisanal, human-centric construction to an "industrialized" model. By adopting "machine tool" concepts—specifically frameworks like Tempur that enforce precise, verifiable, and declarative specifications—engineers can move beyond the bottlenecks of human coordination and verification, enabling agents to build, operate, and evolve mission-critical software autonomously within "dark factories."
+Sesh Nalla argues that as AI agents shift from performing narrow coding tasks to building entire complex systems, software engineering must transition from artisanal, human-centric construction to an "industrialized" model. By adopting "machine tool" concepts—specifically frameworks like Tempur that enforce precise, verifiable, and declarative specifications—engineers can move beyond the bottlenecks of human coordination and verification, enabling agents to build, operate, and evolve mission-critical software autonomously within "dark factories."
 
 ## Key Points
-- Sesh Nala identifies an inflection point in late 2025 where AI models moved from assisting with narrow tasks to handling complex, system-scoped engineering, exemplified by the rapid construction of a Kafka-like system called "Helix" in just a few days.
+- Sesh Nalla identifies an inflection point in late 2025 where AI models moved from assisting with narrow tasks to handling complex, system-scoped engineering, exemplified by the rapid construction of a Kafka-like system called "Helix" in just a few days.
 - As AI capabilities grew, the primary bottleneck in software development shifted from the initial construction of code to the coordination and verification required to ship systems to production.
 - To address this, Nala introduces the concept of "machine tools" for software, drawing a parallel to industrial manufacturing where standardized, repeatable processes enable the creation of complex, reliable machinery.
 - He proposes "Tempur," a framework that forces agents to generate precise, declarative state-machine blueprints rather than improvising arbitrary code, ensuring that the resulting systems are verifiable, reusable, and safe.

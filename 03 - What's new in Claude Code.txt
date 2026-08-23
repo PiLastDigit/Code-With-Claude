@@ -5,7 +5,7 @@ RTFx: 467.3x (3.2s for 24:55.79 audio)
 Processing: 20.3s
 ────────────────────────────────────────────────────────────
 ## Thesis
-This presentation provides an overview of the latest features and updates for Claude Code, emphasizing the team's commitment to enhancing both the developer experience and the autonomy of the AI agent. By introducing tools that improve terminal usability, remote accessibility, and multi-tasking capabilities, the Cloud Code team aims to create a more seamless, efficient, and powerful environment where Claude can handle complex, long-running tasks with minimal human intervention.
+This presentation provides an overview of the latest features and updates for Claude Code, emphasizing the team's commitment to enhancing both the developer experience and the autonomy of the AI agent. By introducing tools that improve terminal usability, remote accessibility, and multi-tasking capabilities, the Claude Code team aims to create a more seamless, efficient, and powerful environment where Claude can handle complex, long-running tasks with minimal human intervention.
 
 ## Key Points
 *   **Remote Control:** This feature allows developers to start a session on their local machine and access it on the go via a mobile browser or app, enabling them to monitor or trigger long-running tasks from anywhere.

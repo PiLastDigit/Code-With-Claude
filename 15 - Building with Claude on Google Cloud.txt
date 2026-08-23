@@ -5,17 +5,17 @@ RTFx: 545.6x (2.9s for 26:29.47 audio)
 Processing: 19.7s
 ────────────────────────────────────────────────────────────
 ## Thesis
-The video demonstrates how developers can leverage Google Cloud’s integration with Anthropic’s Claude and Cloud Code to streamline the entire software development lifecycle (SDLC). By utilizing advanced AI-driven tools—such as sub-agents, Model Context Protocol (MCP) servers, and specialized skills—teams can accelerate the transition from initial product concepts to fully deployed, secure, and data-driven applications on Google Cloud Platform (GCP) without requiring deep prior knowledge of every infrastructure component.
+The video demonstrates how developers can leverage Google Cloud’s integration with Anthropic’s Claude and Claude Code to streamline the entire software development lifecycle (SDLC). By utilizing advanced AI-driven tools—such as sub-agents, Model Context Protocol (MCP) servers, and specialized skills—teams can accelerate the transition from initial product concepts to fully deployed, secure, and data-driven applications on Google Cloud Platform (GCP) without requiring deep prior knowledge of every infrastructure component.
 
 ## Key Points
-*   **Integrated AI Development:** Ivan Nardini introduces "Cloud Code" as an Anthropic coding agent that augments various roles in the SDLC, including product managers, UI/UX designers, software engineers, security engineers, and data analysts.
+*   **Integrated AI Development:** Ivan Nardini introduces "Claude Code" as an Anthropic coding agent that augments various roles in the SDLC, including product managers, UI/UX designers, software engineers, security engineers, and data analysts.
 *   **Simplified Setup:** Setting up Claude models on Google Cloud is straightforward using Application Default Credentials (ADC), which allows for secure, policy-compliant access to models without managing complex API keys or environment variables.
 *   **Enterprise Benefits:** Using Claude on Google Cloud offers distinct advantages for enterprises, such as pay-per-token pricing, provisioned throughput for production workloads, and data residency within the user's project.
 *   **Prototyping with AI:** Product managers can use Claude to generate functional wireframes and prototypes directly from simple sketches, significantly reducing the time spent in the initial design phase.
-*   **Planning and Implementation:** The "Plan Mode" in Cloud Code allows the AI to outline its development strategy before writing code, ensuring alignment with design standards and allowing for integration with tools like Figma.
-*   **Leveraging MCP Servers:** The introduction of the Developer Knowledge API and associated MCP servers allows Cloud Code to access fresh Google Cloud documentation, enabling the AI to architect and deploy applications (e.g., using Cloud Run and Firestore) without the developer needing prior cloud infrastructure expertise.
+*   **Planning and Implementation:** The "Plan Mode" in Claude Code allows the AI to outline its development strategy before writing code, ensuring alignment with design standards and allowing for integration with tools like Figma.
+*   **Leveraging MCP Servers:** The introduction of the Developer Knowledge API and associated MCP servers allows Claude Code to access fresh Google Cloud documentation, enabling the AI to architect and deploy applications (e.g., using Cloud Run and Firestore) without the developer needing prior cloud infrastructure expertise.
 *   **Parallel Development:** Developers can use sub-agents to parallelize the implementation of different application components—such as the API, ingestion pipeline, and dashboard—simulating a team-based development workflow.
-*   **Automated Security:** The demo highlights how security engineers can use pre-built security reviews within Cloud Code to automatically identify and fix common vulnerabilities, such as OWASP issues or improper service account permissions, before deployment.
+*   **Automated Security:** The demo highlights how security engineers can use pre-built security reviews within Claude Code to automatically identify and fix common vulnerabilities, such as OWASP issues or improper service account permissions, before deployment.
 *   **Data-Driven Insights:** Post-deployment, developers can use additional MCP servers for BigQuery and Looker to analyze user feedback and application performance data, closing the loop on the development lifecycle to inform future product improvements.
 
 ## Chapters
