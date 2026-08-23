@@ -22,7 +22,7 @@ Please welcome to the stage, member of technical staff of Anthropic, Alex Albert
 
 I'm Alex Albert. I'm one of our research PMs here at Anthropic. I just heard from the stage manager, Alohm, that there's a happy hour that just started, so I wanna thank all you guys for choosing me over drinks and snacks. I really appreciate that, and I promise this will be worth your fifteen, twenty minutes here. It's been really interesting comparing the vibes at this year's conference to last year's conference.
 
-Last year, Cloud Code was not even GA'd. It had been out for around two or three months. Folks were just starting to get used to this paradigm of agentic coding. These days, as I'm talking to folks here, it feels like people are doing a lot more. They're trusting Claude.
+Last year, Claude Code was not even GA'd. It had been out for around two or three months. Folks were just starting to get used to this paradigm of agentic coding. These days, as I'm talking to folks here, it feels like people are doing a lot more. They're trusting Claude.
 
 They're shipping things faster with Claude. They're building things that they weren't building before that haven't been possible to build on the time skills that they are. Out of actually out of curiosity, wanna run a little exercise here. So I'm gonna say a question. If the question is you, please raise your hand and just keep your hand up.
 
@@ -30,7 +30,7 @@ I wanna get a sense of the room. Raise your hand if you feel like Claude has all
 
 Keep it up. How about five times faster? Alright. Two x faster. Raise your hand if you use Claude.
 
-There we go. Okay, love that. One of the best ways that we've measured Claude's coding intelligence and how we've seen Claude make this impact on folks is through this benchmark called SWE bench verified. SWE bench verified measures the model's ability to autonomously complete software PRs. About a year ago on our model at the time, SONNET 3.7, it scored 62% on this eval.
+There we go. Okay, love that. One of the best ways that we've measured Claude's coding intelligence and how we've seen Claude make this impact on folks is through this benchmark called SWE-bench verified. SWE-bench verified measures the model's ability to autonomously complete software PRs. About a year ago on our model at the time, SONNET 3.7, it scored 62% on this eval.
 
 Today, with OPUS 4.7, it scores 87%. That's a over 25 jump in just over a year. To put this in other words, OPUS 4.7 is more than three times as likely to succeed on some of those difficult PRs that Sonnet 3.7 was failing on a year ago. Now numbers are great, but examples are even better. So to make this a bit more concrete, I have a quick demo here that we put together of the same task but twelve months apart.
 
@@ -38,19 +38,19 @@ So let's get into it. So in this example, we're going be comparing Sonnet four t
 
 Right? Nope. Still nothing. Alright. Well, there was a demo here, and it was really, really cool, so you're gonna have to believe me on that.
 
-Oh, here we go. Okay. Sonnet four, working within Cloud Code. The task that we gave it was to recreate cloud.ai with a single prompt. So you can see how it does here.
+Oh, here we go. Okay. Sonnet four, working within Claude Code. The task that we gave it was to recreate claude.ai with a single prompt. So you can see how it does here.
 
 We get this really generic black and white chat application. We can enter in a prompt. We'll fire that off, and immediately we just hit an error. So it doesn't really even work. Basically it just made like a nice little UI for us.
 
-Now let's run this same task but with OPUS 4.7 instead and see how it does. So we're going have the same setup. It's going be running within Cloud Code. It's going be writing a bunch of lines of code, calling a ton of tools. And eventually, we're going to get an output.
+Now let's run this same task but with OPUS 4.7 instead and see how it does. So we're going have the same setup. It's going be running within Claude Code. It's going be writing a bunch of lines of code, calling a ton of tools. And eventually, we're going to get an output.
 
 And immediately, this output looks better. So we have the Claude color scheme. It knows that already. We actually get a response back from the Claude API when we send it a message. We can start a new chat, and it still remembers the old chat.
 
-So we're keeping track of things. It even renders in line the visualization like the cloud dot ai app does. And like a true developer, it even implemented dark mode. So in addition to that being a better output, it also did it in less lines of code. So it's more efficient as well.
+So we're keeping track of things. It even renders in line the visualization like the claude.ai app does. And like a true developer, it even implemented dark mode. So in addition to that being a better output, it also did it in less lines of code. So it's more efficient as well.
 
 Now this talk isn't about any one of these models in particular. What I do want to focus on is what it means to build on something that is getting meaningfully better like this month over month. Now before I get into the specific tips, I wanna take a look at where these model gains are actually landing, starting first with Claude's planning ability. Older models would have this particularly bad failure mode where they would act first and then think later. It's kinda like me when I'm having to build like a new set of IKEA furniture, like I'm going straight into it, and then only once it's like a mess am I coming back and be like, ah, maybe I should actually read the instructions.
 
-I don't know if anybody else is the same on that. But that was basically the same as Sonnet 3.7. Newer models are much more thorough. They take their time upfront to actually think about the problem, strategize a little bit, plan out what they're gonna do, and then dive into the action and dive into writing those lines of code. What this means for you as a developer is that you should allow Cloud that time to think.
+I don't know if anybody else is the same on that. But that was basically the same as Sonnet 3.7. Newer models are much more thorough. They take their time upfront to actually think about the problem, strategize a little bit, plan out what they're gonna do, and then dive into the action and dive into writing those lines of code. What this means for you as a developer is that you should allow Claude that time to think.
 
 Give it some time to actually think about the problem, what it's gonna do. Don't force it to just jump straight into that action because this can reduce your downstream performance. The second major area where we're seeing gains is in Claude's error recovery. Previous models would hit this thing that we'd often call a doom loop. So the model would run into a problem, it would try to propose a solution, that solution wouldn't work, and then all of a sudden it's really stuck.
 
@@ -58,9 +58,9 @@ And it's just gonna keep spiraling and spiraling until eventually that context s
 
 Older models would often lose the plot as they're working on something. Maybe they would start forgetting things. They're not paying attention as much. Those instructions that you put in the system prompt aren't being, paid attention to as much on that on that thread. Newer models are much more able to hold coherence across runs.
 
-They're able to remember those system prompt instructions and stay focused over the course of hundreds of thousands or even a million tokens. In terms of your applications and how you use Cloud, this means that you don't need to babysit the context window as much. You don't need to chunk up work, and you can trust that Cloud can operate for you on long runs autonomously. Adding thing these things all up together, we have better planning, we have fewer failures in error recovery, and we have agents running for longer, and this compounds into better end to end task performance. Our customers are seeing this as well.
+They're able to remember those system prompt instructions and stay focused over the course of hundreds of thousands or even a million tokens. In terms of your applications and how you use Claude, this means that you don't need to babysit the context window as much. You don't need to chunk up work, and you can trust that Claude can operate for you on long runs autonomously. Adding thing these things all up together, we have better planning, we have fewer failures in error recovery, and we have agents running for longer, and this compounds into better end to end task performance. Our customers are seeing this as well.
 
-Vercel saw in OPUS four seven's planning that it was actually writing proofs for systems code before implementing a single line of code. Winsor saw in their evals that Claude was really sustaining its attention over their longest agentic runs, and Shopify found that as the model was coding, it was actually going back and iteratively refining its outputs. So how can you as a developer see those same things our customers are seeing in your applications? Well, somewhat counterintuitively, it starts not with your application but with your evals. If you can measure something, you can improve on it.
+Vercel saw in Opus 4.7's planning that it was actually writing proofs for systems code before implementing a single line of code. Winsor saw in their evals that Claude was really sustaining its attention over their longest agentic runs, and Shopify found that as the model was coding, it was actually going back and iteratively refining its outputs. So how can you as a developer see those same things our customers are seeing in your applications? Well, somewhat counterintuitively, it starts not with your application but with your evals. If you can measure something, you can improve on it.
 
 So it's important that a, you have evals, and b, these evals are measuring something close to your product distribution that you actually want to improve on. That might sound pretty obvious, but it's often something that I see leads developers astray when they try to eval their product on something adjacent to their use case but not on their actual task distribution. So maybe for example they have a coding agent. And instead of eval ing that coding agent on traffic they have or traffic of a similar pattern of what their users are doing, they're eval ing it on an academic coding benchmark. The second thing you want to do once you have those evals is to make sure that they're not saturated.
 
