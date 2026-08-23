@@ -1,0 +1,172 @@
+Transcript: Running an AI-native engineering org
+Language: en
+Paragraphs: 75
+RTFx: 310.4x (5.5s for 28:37.94 audio)
+Processing: 24.4s
+────────────────────────────────────────────────────────────
+## Thesis
+The central argument of the talk is that the rapid advancement of AI-assisted coding has fundamentally shifted engineering bottlenecks, rendering traditional software development processes obsolete. Fiona Feng, lead of Cloud Code and CoWork Engineering at Anthropic, argues that engineering leaders must adopt a "growth mindset" to continuously audit and dismantle outdated workflows—such as rigid planning, manual code reviews, and siloed team structures—in favor of AI-augmented, agile practices that prioritize high-level product sense, verification, and team autonomy.
+
+## Key Points
+*   **The Shift in Bottlenecks:** Historically, engineering bandwidth and coding throughput were the primary constraints in software development, but AI has made code generation cheap and fast, shifting the new bottlenecks toward verification, code review, and cross-functional alignment.
+*   **Questioning Legacy Processes:** Feng emphasizes that processes rarely "kill themselves" and often accumulate over time; leaders must proactively identify and eliminate workflows that no longer serve their intended purpose, such as excessive planning or rigid status meetings.
+*   **Redefining Technical Debates:** With AI, technical debates have shifted from theoretical whiteboard discussions to empirical testing, where engineers can generate multiple PRs to compare implementations and their impacts on the codebase immediately.
+*   **The "Trust but Verify" Approach:** While AI handles routine tasks like linting, style checks, and test generation, human expertise remains critical for high-stakes areas like security, legal compliance, and product taste.
+*   **Blurring Roles and Team Makeup:** AI has enabled non-engineering roles (like PMs and designers) to contribute code and engineers to assist with content design, leading to a flatter, more agile team structure where managers are expected to maintain "street cred" by acting as individual contributors (ICs).
+*   **"Cloudify" Everything:** The team's core principle is to automate as much as possible using Claude, constantly asking if a task can be offloaded to AI to free up human capacity for more complex, high-value problem solving.
+*   **Metrics for Success:** To measure the effectiveness of these changes, teams should track onboarding ramp-up time, PR cycle times, and the frequency of AI-assisted commits, while ensuring these metrics align with overall product quality and reliability.
+*   **Actionable Advice:** Feng suggests that leaders should identify their team's "noisiest" or most expensive workflow—the one everyone dreads—and critically evaluate whether it can be automated, simplified, or eliminated entirely.
+
+════════════════════════════════════════════════════════════
+TRANSCRIPT
+════════════════════════════════════════════════════════════
+
+There's something to go away I'm old that keeps him on that road. Hey, folks. Do y'all hear me okay? Okay. I I I swear this is not a Claude Coath thing, but do you guys mind if I take a photo?
+
+Because because Boris and Jared had their session at two, and I really thought this was gonna be empty. I'm like, there was just no way people would still be coming in from that session. Oh my gosh. Thank you. I promise me and Boris don't just do selfie words all the time.
+
+But good afternoon, and thanks for attending. So, yeah, my name is Fiona Feng, and I lead Cloud Code and CoWork Engineering and Products. So I work really closely with Boris and Kat. And before Anthropic, I had led and grown teams at Meta and then also Microsoft. And so, for today's talk, this is kind of like overall agenda, but the whole idea is what are some of the lessons I learned in helping Claude code and co work kind of like grow and as we're building out this team.
+
+And kind of like what things I and it's it's interesting. It's lessons I learned even if I think about my time at Meta or even Microsoft, but even at Thropic. Like, it's funny. I did this slide deck maybe like a month ago, and I was already, I've had to change some of the content because, for example, when I started this deck, there were no routines and that even like that way of working was different for me. And so, like we really wanna like, I wanna kinda cover five themes that I've noticed.
+
+One which is the bottlenecks have moved, they've shifted. And so, my bottleneck shift, what are then some of the team norms that we had to rewrite within the Claude Co team? I also wanted to share a little bit about all these team norms we had to rewrite, how we rolled them out, and also what are some of the proof? Some of the, you know, like, some some signals that I get of, oh yeah, we're trending in the right direction, And, it's always gonna be important for me to kind of look at to see, is it still serving us trending in the right direction? And then, I'll end it with a few kind of questions that I still have for myself, and then also some suggestions for you to maybe take an action item back to your teams to have conversations together.
+
+So, with that, the first section, the bottlenecks have moved. I call it the shift. But, you'll probably hear me repeat this kind of subtitle text a lot, which is, what served you prior may not serve you any longer. When actually, even when I think about experience, whether it was like an Anthropic or Meta or Microsoft, the constant growth mindset is just a muscle that has served me really well. And especially right now, when the rate of I don't know if you all are feeling it.
+
+The rate of change is just a little bit crazy. Right? Like, I remember the first time I started doing some vibe coding was last year, and it was still making some some, you know, bugs, and I'm like, why why are you using constants everywhere? That's not good in engineering practice. And now, it's it's, you know, just become so much more capable.
+
+But, that's that's what I am seeing as this interesting shift of when the bottlenecks moved. How do you think about adapting in terms of everything else around that bottleneck? So, maybe y'all are feeling this too, but like for years, engineering bandwidth was the expensive thing. Like, coding throughput was really expensive. And when you think about all the processes we have of shipping software, a lot of it was around hi.
+
+Welcome. There's a chair. Take away those reserve tags. There's no one sitting there. There you go.
+
+And there's another one right here, sir. Welcome. But, yeah, like all of that, like even when you think about how we used to do planning, like remember we used to do like waterfall and then agile. Everything was used to be because engineering bandwidth was really expensive. Actually, I'll take a little segue here.
+
+This is not the first time our look, when you think about our industry, we've always had to adapt. Like, I'm gonna put you all in a time machine. Come back with me all the way to the year two thousands. That was when I started my career. I worked on Visual Studio.
+
+We were shipping Visual Studio 2005. And, I kid you not, in those days, folks remember, we used to ship software on CD ROMs. Before CD ROMs, was actually floppy disk. And, so, I still remember Versus 2005, there were really hard deadlines. We had to hit those deadlines because we had to get the software to the manufacturing lab, to print on the CDs, to put in the boxes, to ship in the stores.
+
+And so, when you when you even think about them, when we were able to distribute software online, that also changed how we ship software. And so, that's what I'm finding really interesting of this this new, you know, shift that I'm seeing is engineering bandwidth. It's no longer the expensive thing. So, example, on the ClockCode team, for sure, coding is rarely the slow part anymore. And, I would say, it's not even that it's not the slow part, it's just also the throughput has really, really increased.
+
+So, it's not only like, yay, we're all getting to build more, it's just the amount that we're generating has also changed a lot. And so, what we saw was, you know, when your your bottlenecks shift from kind of the coding and the actual act of typing. Like, if you remember, it used to be writing code was expensive, or writing tests, or refactoring. I remember all of these conversations of, we have to schedule some time to do refactoring. Oh, but we have to do product work, and this is expensive.
+
+When are you gonna find that time to do it? All of that has shifted now, that is no longer the bottleneck. And so, when that happened, sometimes I noticed that bottlenecks end up shifting towards other areas. And so, what happened? Like, example, verification, review, cross functional partners, security, because coding is no longer the bottleneck, and also we're doing so much more of it, these are some of the new bottlenecks that we're seeing.
+
+So, it's really always us asking, is this code correct? Who reviews this code? That's like probably one of the top questions I get from all fellow eng leaders, like, how are humans keeping up with how you guys are doing, like, code reviews? And interestingly, also, how is it maintained? Because now, it is also a lot easier for us all to generate a lot of code.
+
+So, also thinking about that maintenance cost too. So, with that, these were some of the processes that I noticed quietly stops working. And, I love that phrase quietly stops working, because I don't know if you all like a lot of times, we all put in processes, hopefully for a reason. Right? Like, we're thinking, hey, there was a gap here, we wanna improve.
+
+But, what I found over the years is rarely do processes kill themselves. We tend to just layer more and more and more processes on. Like, I remembered on one team, we had so many SLAs. Like, there was a p zero bug SLA, a high pry like, sev review incident bug. Anyways, there's so many SLAs.
+
+After a while, like, oh no, we need to stack rank priorities, so that all the engineers knew which SLA was gonna be even more important. And I remember even at that time, thought, hey, we should start thinking about what things we should defrag a little bit. But, yeah. So, these are the processes that might have served you. If you remember again, it's that line of what may have served you may not serve you any longer.
+
+But like the planning norms. We used to spend a lot more time, you know, pre planning because coding time was expensive. Code ownership. There used to also be a lot of questions of who wrote this code? Who owns it?
+
+That's a little bit of an odd question now. Code reviews, what we'll get into a little bit. Team makeup is interesting too. It's not only like roles are blurring. Right?
+
+Like, engineers can also now have AI to help augment non engineering roles. My non engineering partners are also all shipping codes. So, what happens when roles start blurring and you don't have those, you know, silos anymore? And then, that also goes to knowledge share. Knowledge sharing and onboarding and everything is another signal that we're noticing at Cloud Code, how we used to do things change a little bit too.
+
+And so, you know, the first section, we talked about the shift. So, within the Cloud Code team, what are some of the norms that we have to rewrite? So, I want to share some of those with you and then, you know, hopefully some of them will resonate with you, or you might find helpful. And so, one is code review. Like, human judgment of like, who actually needs it.
+
+And, we'll kind of go through all of these, but you know, like the onboarding has also changed. We do planning, you've heard me talk about like planning a lot. Hiring, especially with roles blurring and kind of team makeup, how that has changed for us too. And also, org shape. That's kind of one of my favorite spicy topics.
+
+I'll share that story with you all, when I start proposing that at Anthropic. I love my recruiting partners, they're awesome, but I remembered, you know, one recruiting partner really did think I was crazy. So, I want to share that with you all too. So, how have planning changed? But also, technical debates.
+
+Planning, we do a lot less of it. Like, I I would also and also the timing, I call it like, git planning, almost like git compiling because even when I first joined, I'm like, don't we need a six month roadmap? And, you know, we put some effort in, we wrote it, it was pretty good for three months, and then I came back over the new year, and so many things had changed already. So, I realized, well, six months roadmap just seems like a little bit too long. So, again, it's how do you make sure you kind of like do just the right amount in the right time, because again, prototyping and code generation is just not the bottleneck that it used to be.
+
+The technical debate one is a fun one too. So, in technical debates, code wins. I'll share with you all, when I first joined the Cloud Code team, I wanted to do a refactoring. I wanted to get to learn about the code base. And, me and Boris had a healthy technical debate of, you know, which way to go, and I almost leaned into my old toolbox.
+
+I almost tapped him on the shoulders, go, let's go to that room and have a whiteboard and we can and I'm like, wait a minute. Nowadays, I can just generate all the different options we've been discussing. I generated three PRs. And, the cool part about that for the technical debate is, I really cared not only about the implementation of the API, but also the impact to all the callers into the API. And so, I can have Claude help me generate the three different versions, it allowed us to have a debate of not only implementation, but also impact to the colleagues.
+
+So, I think that's another really interesting kind of pivotal change. So, like, you know, when building is cheap, arguing expensive, again, how does that shift your team norms a bit? I do wanna call out, this makes it even more important to make sure you set up team culture for how you think about alignment. For example, what totally won't fly is because code is, you know, so much faster for us to generate. It shouldn't be like the last person who check-in wins, you know.
+
+Like, I'm gonna stay up at 3PM to submit this PR, set up a routine so that I get the last word in. So, definitely a no no. That makes it even more important to make sure you have good team culture that can have open, honest, technical debates, but also a good team alignment. So, talked a lot about kind of what we've reduced in planning. On concode, we definitely have reduced the design doc before every code ritual.
+
+I would say certain teams and for definitely certain scenarios, it's still really important to think about design docs, especially as we're doing kind of like async discussions. But on Cloud Code, most of our discussions is like instead of a doc, a PR. Kind of like one of the word we have. Hey, if have an idea, go prototype. That's the other thing.
+
+We don't really do a lot of product reviews because the landscape is changing fast. So, let's prototype. Let's actually get a lot of internal ants using it. And, I'm really a big fan of shipping it out to all of you, and then hearing all the excellent feedback, so that we can really and and again, like, that that has changed our planning ritual to be a lot less design docs, and mostly discussions are in PRs or prototypes. So, we reduced that, but what did we double down on?
+
+And, I think this is an area where we actually need to do more and continue being better. It's the verification. Because again, it's like the throughput is different, and there are new ways to break. So, how can you scale out? And I call it kind of shift left.
+
+Like, in the old days, you would get code out, and and I would love to for me to find bugs before any of you find it. And, what's better than me finding a bug is actually what I call shift left, like more automation, so we catch it earlier to the source. So, that is something that I think we need to continue to double down on. And the other thing that's interesting is also because roles are blurring. For example, my designers like, I would love more confidence that when I checked in this code, I don't break something.
+
+Like, I remembered I fixed a fixed a bug in resume or something, and the next day I was catching up on Boris' you know threads, and I saw someone tag him of, I'm noticing a bug. I remembered having that sinking feeling. I don't know if you all have like, did I just catch a bug? Like, so, because of the throughput, like, just really wanna make sure everybody regardless of roles, just has a lot higher confidence for the change that they're putting in. Who made this change?
+
+And so, my advice here is, again, because all our PRs are assisted by Claude, it's a little bit of an odd question. And so, us, what is more helpful than just that question is what I call double clicking into it. So, in the old days, when you used to ask, who made this change? What question are you really trying to answer? Are you looking for who caused this regression?
+
+Definitely don't want to blame, but just want to know who was the last person that touches code that might have caused this break? Or, are you looking for an expert to answer a customer question? Or, you're looking to gain context? So, whatever is a double click question, also think about, is there a way you can automate? It's funny I mentioned I had to change a slide deck.
+
+When I started this talk about a month ago, part of my every morning is I would bring up my desktop code and go into, here's a customer feedback channel, and kind of want to ask it to summarize, that was just a morning ritual I would do with my morning cup of coffee. Now, it's routines. Right? Like, I can set that up and then, better than what I had done before, which was I would kick it off. I'll be like, with my morning cup of coffee, I always get to kind of a pretty good overview.
+
+So, that's my point of like, code ownership is a little bit more fuzzy, but on the flip side, double click to what question you're really trying to answer and seeing how Claude can actually help you with those. How do you keep up with code reviews? So, I'm really glad if you all saw the keynote this morning, Kat talked about it. We definitely leverage heavily Claude code review. Now, what's interesting is going to be, where do you trust Claude, like a lot, but then where do you still want a human?
+
+And so, for sure, like, you know, and actually, Claude also, as Kat showed you all the the Claude also does a great job babysitting PRs. And so, we definitely have Claude handle all the style and lints and PR feedback requests, even like maybe catching some bugs and fixing them before it even does the full commit. And also, adding tests. That's like really what we've leaned heavily into Claude for. But, where I still definitely want a human is that expertise.
+
+It's all about trust but verify. So, example, legal review. I always definitely want to make sure I'm getting my legal partner still. It's, you know, like risk tolerance. So, example, trust boundaries and security sensitive code.
+
+I still want to make sure I'm pulling in the experts. The other area, which which is kind of fun, is also that product sense and taste. Like, I remember one of the hobby like, one of the fun things I like to to use Claude for is I like to decorate Claude for the holidays, or the seasons. And, I remembered last holiday, I wanted to update Claude in the terminal to, you know, give them a little holiday theme. And, I asked Claude Co.
+
+To turn Claude into a snowman. Claude wasn't that good at ASCII art in those days, and I remembered asking, that's where product sense really comes in. I asked my design partner, hey, can you review this for me? And, she gave me such good feedback. She's like, you turn Claude into like the mister peanut character, because I was trying to make him snowmatch.
+
+Oh, okay. I'm gonna do something more simple. So, Clod was like ice blue with snowflake. But, keep in mind kind of that product sense as well. Which leads me to, what should my team makeup be?
+
+Because, roles are blurring, Claude is augmenting. I'll share with you on Claude code, there's two profiles for engineers that I've really heavily indexed on. One are like creative builders with product sense. Usually, you'll see these are, you know, the dreamers. There'll be a big sense of curiosity.
+
+You're really passionate about, oh, here's a problem. Here's a maybe I could, know, ship a product that solves that problem, but then there'll be a lot of iteration to make sure you're delivering a delightful experience. The other one is deep systems expertise. So, when I first joined Cloud Code team, I noticed actually we were pretty good with product generalists and creative folks, but we were missing folks with like distributed systems expertise. I mean, you're building things like Cloud Code remote to ensure we can run clouds everywhere.
+
+You really still need those expertises. So I would say, you know, whichever software engineering lead you're part of or supporting, think about those hard parts of where you might wanna continue to still double down. But for sure, what I index less on is raw throughput because thanks to the models, we're just a lot more efficient. The cross functional gaps is another interesting one. So, example, I remember that I wanted to do an update to how we do survey responses, but I didn't have a dedicated content designer to work with me.
+
+And I'm an engineer, my writing skills are quite terrible. I struggle to write things in a short and succinct form. I don't want the surveys to like, you know, overload you all in the terminal of cause every line space is really important. But, that's where Claude Like in the old days, would be, who is a group of content designer I can work with, and I can give changes back and forth. But now, Claude has really helped me to augment that role and was a really good content design partner for me to kind of like make sure the verbiage is is good and succinct.
+
+And, on the flip side, like I say, our PM code a lot, which is really fun to see. So, like I I would say with Claude, like you have non traditional coders now being able to do more engineering. But, you also have engineers that we can also now lean in to do things that was traditionally, you know, like, on the technical side, but more for the content or design. So, it's very interesting. I found that Claude and AI has really augmented roles kind of like all around.
+
+This was a spicy one. So, I'm definitely like, I remember when I first joined Cloud Code, everyone's like, okay, you're gonna grow the team by certain amount, and I could tell recruiters were still using the typical, you know, 10 ICs to one manager, and then how do you start thinking about nesting. I really have leaned into keeping it really scrappy. And actually, maybe I would step back to whether it's at Anthropic or Meta or Microsoft. Whether it was like Visual Studio or Facebook Marketplace or ARVR devices or Quad, like what I have found to really help me ship great product is heavy heavy heavy dog feeding.
+
+Especially for leaders where nowadays it's actually fun. I can still be in the code, but for a while it wasn't. And when you can't get your hands on the code, would always make sure I have maker time, so that I'm actually using my product days in and days out. And so, that's why I wanted every manager in QuadCode to start out as an IC first. And also, earn some street cred with the team and and really learn how to be an effective engineer.
+
+And and then I really structured the org to be as flat as possible because I want us to be super agile. This was just my my recruiters had some concerns because I remember they said, you want to hire managers and they will start as an IC first? No manager will be interested in that. I'm like, well, this is what dogfooding on the Clock Code team is about. This is what I expect.
+
+And if someone's not interested, it's better for us to do earlier separation. But also, again, this seems like there's no way I would have been able to ramp or be able to do code because my time is, you know, there's just a lot of context switching without Claude. And so, those of you in the room who are managers, I really, you know, like encourage you all to kind of like lean in. It's I'll I'll be honest, for for a long time at Meta, I would still try every year to do one PR a year just to but the the code, the the workflows would always change, like I all the internal tools, like by the time I learned one command, it would have changed. Nowadays, I don't even remember git commands, I just always ask Claude to to help me out out with all of that.
+
+Knowledge sharing. What becomes your new source of truth? So, example, on our team on Claude code, the code is a source of truth. That's why I would go back to when I'm like answering customer requests. I just have my desktop cloud desktop cloud code and I have all my local repository, so actually answer a lot of customer questions.
+
+So, for us, just having that code base be the source of truth also prevents some of the lag that you might have had before of how to keep up the documentation, correct with the code. But I would say, this is where it's like do what makes sense for your team. So, example, if you still have a lot of really good specs, check those into the repositories and then have Claude lean in to help, you know, like, hey, you know, like take a look at how verified my code execution still matches what I expect on the spec. And so, how did we roll it out? Because these were like I had just gone through some of the norms that we had changed.
+
+And I think it's interesting. There's a blend of what do we kind of like mandate as team norms? Like, sure you're gaining alignment with the team. And then, where do I really enable each, you know, like we have pods within Cloud Code. I wanna make sure I enable each pod to do what makes sense for them as well.
+
+So, in terms of the balance, in terms of forcing function, it's aligned with the teams on the must do's. So, these are a few of the core Claude Co. Team principles that we really live and breathe. And by the way, if you remember, again, I'll I'll go back to that growth mindset and always think about something still serving you. We keep these up to date.
+
+So every few months, we'll be like, hey, is this still having the same effect or serving the purpose that we wanted when we started it? So for example, and I should replace this slide. It's not every engineer uses Cloud Code. That's obvious. It's actually every Cloud Code team member, including cross functional partners.
+
+And actually, we all use co work quite a bit too. Clodify everything you can. This is one thing where we're like, you know what's better than one of us doing it? Having Cloud. So, always think about is there some way for you to automate whether it's verification, more shift left, but always be thinking, what you're doing something right now, is there some way that Claude could actually help you do it?
+
+And the last one's my favorite, explicit permission to kill the processes. Because again, processes will kill themselves. But as you're supporting teams, it's really important to always get that fast feedback for your team of what are the things that, you know, like are we spend we're spending a lot I'm actually I remember when I first joined Cloud Co, we used to do stand ups. And then the team got a little bit big, so then we had a spreadsheet. We were we would all put up our, you know, like weekly process progress.
+
+And all of sudden, we're like, oh, wait. We should just do a a skill. Right? Like a a stand up script, so then we can just run Claude, and all of us can always be very be much more kept aware of what everybody else is doing. So, that's just an example of one day I remember looking at the spreadsheet going, wait, does this still make sense anymore?
+
+So, always question and always look to defrag and kill old processes. What I want to make sure that I leave a lot of room for pods to adapt, it's for for each team really has a lot of high agency for how, you know, they do triage or leverage cloud to do triage, any planning rituals or stand ups, they think about on calls, and also which workflows to quantify first. So, we don't usually mandate thou shalt automate this. We have some suggestions and learnings, but always give room to your team especially they may be, you know, touching on different problem areas. So, if I zoom out, what were the three things I prioritize on, you know, I I when I joined Cloud Code, but I felt it has to make the biggest difference.
+
+Keeping the team as flat as possible, like managers release some potpots of work, but really keep it agile. So, example, Cloud Code and Cowork, we have one overall team mission. Because sometimes when you start creating pods, each pod then wants maybe to set up their own mission, and then anytime you have to shift, it might be take a lot of time to walk people through that. But, it's really as flat as you can. I felt that served us really well.
+
+The Claude ify everything better than you doing it, see how Claude can help you, it really frees us up to do more of the harder work. And again, the processes, they do pile on. So, encourage you to kind of like work with your team to see what are the processes that actually you should be able to let go. So, does it actually work? I can't go into the explicit numbers, but I think these are three general kind of metrics that you can look at as you're rolling out, you know, changes on your team that might start steering you to, yeah, this seems like it's kind of starting to be successful.
+
+The onboarding ramp up time that has dramatically reduced. So, that's an interesting thing of like how soon an engineer, or a designer, or you know, like a PM can start being effective on your team. The PR cycle time shortening. I think this one's interesting to double click into a bit, because it's it might actually help you identify a gap that's not just in terms of lack of AI adoption, but where the rest of the pipeline might be struggling to scale. So, example, again, as as we're now like, you know, just putting in through so much more code, sometimes a product infrastructure can build on CI, keep up with the amount that engineers are checking in.
+
+So, both of those should go down, but then what should go up a little bit is cloud assisted commits. For example, for us, it's by default every commit is cloud assisted. I don't think I've seen a non cloud assisted commit probably in the last four months or so. But hopefully, these three things are are kind of like metrics that you can kind take a look at at your team and see how it resonates. I would also say though, outside of just number of commit, also think about the end goal.
+
+Like, if you zoom out, what is the product that you're trying to make more delightful for users? Or what is the problem you're trying to solve? Because sometimes you see it on all the headlines of this company said, x percent of code is not generated by AI. I think throughput is great, but really think about how you measure what it is that you're actually really trying to solve. Like, for example, we really wanna make sure we're keeping an eye on quality and reliability.
+
+So, those are some of the things that we're paying more attention to as well. Okay. So, my last section is to audit your own efforts. I'll share with you transparently. Actually, I still have a couple of questions that I am still asking myself.
+
+The iOS and Android org is a very interesting one. Like, when engineers can now more efficiently kind of flex across it from mobile platforms, does a more traditional way of, you know, having an iOS team and an Android team still makes sense? That's something that I'm still kind of thinking through. How much do you push that fully automated review? Again, like when do you kind of strike that balance between fast enough and we lost something important?
+
+It goes back to the trust but verify. And what's interesting is you even might have heard today and earlier, Darron Danella's talk, the model capabilities do keep improving. So, also, even if you might need to do more verify than than trust for a certain section of work, that might also change with the next model. So, that's why it's always important to reevaluate. And roles are blurring, so how do you make sure that everybody feels equally productive?
+
+So, if I were to leave you with one, you know, thing to take back of is, you know, pick your noisiest workflow. And by noisiest workflow, it could be most expensive, what's something that you know what, you yourself might be dreading or even your team might not really look forward to it. And ask, is this still really serving what's the purpose of there? Like, actually, I'll share another funny story. There was a team I was on where we used to have this weekly review.
+
+It's a very expensive review like 50 people, you know, in this large room and then I noticed everybody's on their laptops except for when it's their time to give status report and then they pop their head up, say the status and then go back down. And I'm like, this is a very expensive meeting. And I just asked that simple question of why are we having it? And just that one question everybody's like, yes, true. And so, canceled it.
+
+So, that's why it's always important to to think and and so, yeah, like I I figured this might be something fun for you to take back and look and see what's one piece of workflow that you might consider. Can you either automate or maybe even is it still, you know, proving is it still serving its intended purpose? So with that, that's the end of our talk. I'm like, pretty good. It's really good.
+
+Thank you. Thanks a lot for thanks a lot for attending. I really, really, for sure thought this room was gonna be empty, so thanks for not having by myself. And I'm around here today and tomorrow. So if you have any questions or wanna chat more, feel free to introduce yourself.
+
+I'm happy to chat. Thank you.
