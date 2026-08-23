@@ -18,6 +18,20 @@ The central argument of the presentation is that "test-time compute"—the pract
 *   **Model Selection Strategy:** For intelligence-demanding tasks where speed is needed, using a larger model on "low effort" is often more effective than using a smaller model on "max effort," whereas smaller models are better suited for bulk, low-intelligence tasks or applications requiring a fast "time to first token."
 *   **Actionable Recommendations:** The speaker advises users to enable thinking, utilize evals to chart performance curves, read transcripts to understand model behavior, and default to "Extra High" effort for software engineering tasks to achieve the best balance of performance and efficiency.
 
+## Chapters
+
+* [0:53](https://www.youtube.com/watch?v=OXJO4LldSnc&t=53s) — Scaling compute at test time, not just training time
+* [2:42](https://www.youtube.com/watch?v=OXJO4LldSnc&t=162s) — The traffic simulation at low, high and max effort
+* [5:41](https://www.youtube.com/watch?v=OXJO4LldSnc&t=341s) — Three kinds of tokens: thinking, tool calling, text
+* [8:18](https://www.youtube.com/watch?v=OXJO4LldSnc&t=498s) — Effort dials and task budgets
+* [10:52](https://www.youtube.com/watch?v=OXJO4LldSnc&t=652s) — From think-then-act, to interleaved, to adaptive thinking
+* [13:48](https://www.youtube.com/watch?v=OXJO4LldSnc&t=828s) — Why an effort dial beats a thinking toggle
+* [15:08](https://www.youtube.com/watch?v=OXJO4LldSnc&t=908s) — Charting your own effort curve
+* [16:46](https://www.youtube.com/watch?v=OXJO4LldSnc&t=1006s) — Claude Plays Pokemon on low effort, and the speedrun strategy
+* [18:04](https://www.youtube.com/watch?v=OXJO4LldSnc&t=1084s) — Rules of thumb for each effort level
+* [19:56](https://www.youtube.com/watch?v=OXJO4LldSnc&t=1196s) — Small model at max effort, or big model at low effort
+* [21:59](https://www.youtube.com/watch?v=OXJO4LldSnc&t=1319s) — Three takeaways, and why extra high is the default for coding
+
 ════════════════════════════════════════════════════════════
 TRANSCRIPT
 ════════════════════════════════════════════════════════════

@@ -18,6 +18,20 @@ Asana is transforming enterprise productivity by integrating AI "teammates" that
 *   **Future Roadmap:** Asana is focusing on increasing agent proactivity, where AI teammates will autonomously identify issues or suggest remediation steps based on project patterns, even without being explicitly assigned a task.
 *   **Third-Party Integrations:** Asana manages third-party tool integrations (such as Google Drive or Office 365) at both the agent loop level and the MCP (Model Context Protocol) level to ensure agents have comprehensive access to external data.
 
+## Chapters
+
+* [0:41](https://www.youtube.com/watch?v=BrpB-h1e--k&t=41s) — Asana's vision of the agentic enterprise
+* [1:16](https://www.youtube.com/watch?v=BrpB-h1e--k&t=76s) — Why single-player AI does not compound
+* [2:24](https://www.youtube.com/watch?v=BrpB-h1e--k&t=144s) — The teammate that outlived the employee who built it
+* [3:55](https://www.youtube.com/watch?v=BrpB-h1e--k&t=235s) — Seventeen years of work graph as agent context
+* [5:54](https://www.youtube.com/watch?v=BrpB-h1e--k&t=354s) — What Managed Agents gave them: prototyping speed and a grader
+* [7:34](https://www.youtube.com/watch?v=BrpB-h1e--k&t=454s) — Twenty-one pre-built AI teammates
+* [10:18](https://www.youtube.com/watch?v=BrpB-h1e--k&t=618s) — Demo: a campaign brief and a landing page mockup
+* [13:45](https://www.youtube.com/watch?v=BrpB-h1e--k&t=825s) — Multiplayer: a second person iterates by comment
+* [15:20](https://www.youtube.com/watch?v=BrpB-h1e--k&t=920s) — RBAC, auditability, and who owns an agent
+* [16:32](https://www.youtube.com/watch?v=BrpB-h1e--k&t=992s) — What is next: proactivity
+* [17:51](https://www.youtube.com/watch?v=BrpB-h1e--k&t=1071s) — Q&A: verification, rubrics, skill maintenance, third-party integrations
+
 > Speaker labels are machine-assigned: who is talking comes from automatic
 > diarization and the spellings from Anthropic's published session roster.
 > They are not verified against the recording. Treat a NAME: as a strong hint,

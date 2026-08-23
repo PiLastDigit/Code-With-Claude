@@ -18,6 +18,21 @@ The central argument of the presentation is that the development paradigm for AI
 *   **Agentic Coding Loops:** By leveraging "Claude in Chrome," agents can now autonomously navigate the web, reproduce bugs, and test fixes in a human-like way, closing the loop between development and quality assurance.
 *   **Strategic Focus:** Developers should stop writing code that compensates for model unreliability, as that work will likely become obsolete; instead, they should focus on building the "front door" for agents by integrating unique data, custom tools, and specific business logic.
 
+## Chapters
+
+* [0:57](https://www.youtube.com/watch?v=KLCuxMDZSDg&t=57s) — The scaffolding you built last year now ships with the model
+* [2:23](https://www.youtube.com/watch?v=KLCuxMDZSDg&t=143s) — What building an agent meant a year ago
+* [3:05](https://www.youtube.com/watch?v=KLCuxMDZSDg&t=185s) — Tool routing and retries are now the model's job
+* [5:18](https://www.youtube.com/watch?v=KLCuxMDZSDg&t=318s) — Put the output schema in your tool description
+* [6:09](https://www.youtube.com/watch?v=KLCuxMDZSDg&t=369s) — Pre and post tool use hooks in Claude Code
+* [6:47](https://www.youtube.com/watch?v=KLCuxMDZSDg&t=407s) — Context management: a million tokens, compaction, context editing
+* [8:27](https://www.youtube.com/watch?v=KLCuxMDZSDg&t=507s) — Clear stale tool results, keep the decisions they informed
+* [9:58](https://www.youtube.com/watch?v=KLCuxMDZSDg&t=598s) — Code execution: a hosted sandbox inside a single API turn
+* [12:39](https://www.youtube.com/watch?v=KLCuxMDZSDg&t=759s) — Computer use at native resolution, and the scaling math going away
+* [14:03](https://www.youtube.com/watch?v=KLCuxMDZSDg&t=843s) — OSWorld: from under 50% to nearly 80%
+* [16:07](https://www.youtube.com/watch?v=KLCuxMDZSDg&t=967s) — Demo: Claude in Chrome reproducing and fixing its own bugs
+* [19:42](https://www.youtube.com/watch?v=KLCuxMDZSDg&t=1182s) — Code compensating for model unreliability has a half-life of months
+
 ════════════════════════════════════════════════════════════
 TRANSCRIPT
 ════════════════════════════════════════════════════════════

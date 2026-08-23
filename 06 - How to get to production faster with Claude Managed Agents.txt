@@ -17,6 +17,20 @@ As AI model capabilities grow exponentially, the primary bottleneck for develope
 *   **The "Inner" and "Outer" Loop:** The presenters demonstrated an efficient development cycle where an "inner loop" uses Outcomes to optimize performance autonomously, while an "outer loop" allows developers to provide feedback and use code agents to refine instructions and rubrics for subsequent sessions.
 *   **Real-World Impact:** The platform was developed in partnership with companies like Asana and Notion, and it enables developers to build sophisticated systems, such as the "Boss Agent" demo, which autonomously optimized its own performance to reduce rendering time from 37 seconds to 10 seconds.
 
+## Chapters
+
+* [1:22](https://www.youtube.com/watch?v=E9gaQHrw_rg&t=82s) — The agenda, and why infrastructure is now the bottleneck
+* [2:05](https://www.youtube.com/watch?v=E9gaQHrw_rg&t=125s) — From minutes of focused work to overnight backlogs
+* [3:31](https://www.youtube.com/watch?v=E9gaQHrw_rg&t=211s) — Outcome-oriented tasks, and stopping to ask questions
+* [4:17](https://www.youtube.com/watch?v=E9gaQHrw_rg&t=257s) — What the developer research found: context, infra, no observability
+* [5:50](https://www.youtube.com/watch?v=E9gaQHrw_rg&t=350s) — The mental model: agents, environments, sessions
+* [6:27](https://www.youtube.com/watch?v=E9gaQHrw_rg&t=387s) — Walking the event topology: user, agent, session, span
+* [7:20](https://www.youtube.com/watch?v=E9gaQHrw_rg&t=440s) — Demo: the PASCAL grocery analytics agent
+* [9:28](https://www.youtube.com/watch?v=E9gaQHrw_rg&t=568s) — Getting started: the Claude Code skill, the CLI, cookbooks
+* [10:28](https://www.youtube.com/watch?v=E9gaQHrw_rg&t=628s) — Newer capabilities: orchestration, outcomes, memory, dreaming
+* [11:43](https://www.youtube.com/watch?v=E9gaQHrw_rg&t=703s) — Boss Agent: using outcomes to go from 37 seconds to 10
+* [14:01](https://www.youtube.com/watch?v=E9gaQHrw_rg&t=841s) — The inner loop and the outer loop
+
 > Speaker labels are machine-assigned: who is talking comes from automatic
 > diarization and the spellings from Anthropic's published session roster.
 > They are not verified against the recording. Treat a NAME: as a strong hint,

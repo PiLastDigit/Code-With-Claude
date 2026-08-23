@@ -14,6 +14,22 @@ The central message of the presentation is that as AI models like Claude evolve 
 *   **Simplifying Scaffolding:** With more capable models, developers should re-evaluate their existing infrastructure and prompts, often finding that removing unnecessary, complex workflows or legacy instructions improves performance and reduces token costs.
 *   **Optimizing Agent Autonomy:** To maximize performance, developers should provide models with "room to work" by using adaptive thinking parameters, granting controlled access to tools (such as Claude Code's auto mode), and designing systems that allow the model to inspect and iterate on its own outputs.
 
+## Chapters
+
+* [2:22](https://www.youtube.com/watch?v=tP4MGcJ80Y0&t=142s) — Comparing this year's conference to last year's
+* [3:44](https://www.youtube.com/watch?v=tP4MGcJ80Y0&t=224s) — SWE-bench Verified: 62% on Sonnet 3.7 to 87% on Opus 4.7
+* [4:21](https://www.youtube.com/watch?v=tP4MGcJ80Y0&t=261s) — Demo: the same task, twelve months apart
+* [6:37](https://www.youtube.com/watch?v=tP4MGcJ80Y0&t=397s) — Where the gains land, first: planning before acting
+* [7:35](https://www.youtube.com/watch?v=tP4MGcJ80Y0&t=455s) — Error recovery, and getting out of the doom loop
+* [8:18](https://www.youtube.com/watch?v=tP4MGcJ80Y0&t=498s) — Holding attention over long runs
+* [9:21](https://www.youtube.com/watch?v=tP4MGcJ80Y0&t=561s) — What Vercel, Windsurf and Shopify saw
+* [9:50](https://www.youtube.com/watch?v=tP4MGcJ80Y0&t=590s) — It starts with your evals, not your application
+* [10:39](https://www.youtube.com/watch?v=tP4MGcJ80Y0&t=639s) — Making sure your evals are not saturated
+* [11:21](https://www.youtube.com/watch?v=tP4MGcJ80Y0&t=681s) — Take a second look at your scaffolding
+* [11:58](https://www.youtube.com/watch?v=tP4MGcJ80Y0&t=718s) — Prompt cruft accumulates model over model
+* [12:28](https://www.youtube.com/watch?v=tP4MGcJ80Y0&t=748s) — Give the model room to work
+* [13:36](https://www.youtube.com/watch?v=tP4MGcJ80Y0&t=816s) — Closing the loop so the agent can check itself
+
 ════════════════════════════════════════════════════════════
 TRANSCRIPT
 ════════════════════════════════════════════════════════════

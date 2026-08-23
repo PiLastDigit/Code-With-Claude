@@ -19,6 +19,24 @@ The central message of the presentation is that while AI model capabilities are 
 *   **Real-World Impact:** Companies like Shopify and MercadoLibre are already using these tools at scale, with MercadoLibre aiming for 90% autonomous coding and having already modernized over 9,000 apps using Claude Code.
 *   **Future-Proofing Development:** Anthropic advises developers to design architectures that can absorb future intelligence jumps rather than just optimizing for current model accuracy, treating model upgrades as business opportunities.
 
+## Chapters
+
+* [2:24](https://www.youtube.com/watch?v=GMIWm5y90xA&t=144s) — Ami Vora on the first program she wrote that worked
+* [4:13](https://www.youtube.com/watch?v=GMIWm5y90xA&t=253s) — What developers built: Stripe's Scala migration, Binti's foster care licensing
+* [5:55](https://www.youtube.com/watch?v=GMIWm5y90xA&t=355s) — The exponential, and why adoption is still linear
+* [9:32](https://www.youtube.com/watch?v=GMIWm5y90xA&t=572s) — Doubling Claude Code rate limits; the SpaceX Colossus partnership
+* [10:43](https://www.youtube.com/watch?v=GMIWm5y90xA&t=643s) — Dianne Penn on shipping eighteen versions of Claude
+* [14:20](https://www.youtube.com/watch?v=GMIWm5y90xA&t=860s) — What Opus 4.7 changed for AMP, Rakuten and Intuit
+* [18:35](https://www.youtube.com/watch?v=GMIWm5y90xA&t=1115s) — Design for the next version of Claude, not the current one
+* [21:02](https://www.youtube.com/watch?v=GMIWm5y90xA&t=1262s) — Two things stopping businesses: right outcomes, and speed with scale
+* [22:18](https://www.youtube.com/watch?v=GMIWm5y90xA&t=1338s) — The advisor strategy: small model executes, large model advises
+* [25:03](https://www.youtube.com/watch?v=GMIWm5y90xA&t=1503s) — Three upgrades to Managed Agents: orchestration, outcomes, dreaming
+* [26:04](https://www.youtube.com/watch?v=GMIWm5y90xA&t=1564s) — Live demo: landing drones on the moon
+* [32:13](https://www.youtube.com/watch?v=GMIWm5y90xA&t=1933s) — Cat Wu on closing the same gap in Claude Code
+* [38:25](https://www.youtube.com/watch?v=GMIWm5y90xA&t=2305s) — Shopify and MercadoLibre adopting Claude Code org-wide
+* [41:31](https://www.youtube.com/watch?v=GMIWm5y90xA&t=2491s) — Boris Cherny demos the Acme Pay refund flow
+* [43:54](https://www.youtube.com/watch?v=GMIWm5y90xA&t=2634s) — Routines as a higher-order prompt
+
 > Speaker labels are machine-assigned: who is talking comes from automatic
 > diarization and the spellings from Anthropic's published session roster.
 > They are not verified against the recording. Treat a NAME: as a strong hint,

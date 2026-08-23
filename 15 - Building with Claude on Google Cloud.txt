@@ -18,6 +18,20 @@ The video demonstrates how developers can leverage Google Cloud’s integration 
 *   **Automated Security:** The demo highlights how security engineers can use pre-built security reviews within Cloud Code to automatically identify and fix common vulnerabilities, such as OWASP issues or improper service account permissions, before deployment.
 *   **Data-Driven Insights:** Post-deployment, developers can use additional MCP servers for BigQuery and Looker to analyze user feedback and application performance data, closing the loop on the development lifecycle to inform future product improvements.
 
+## Chapters
+
+* [1:09](https://www.youtube.com/watch?v=SqHsS737CeA&t=69s) — Five hats: the personas in one software lifecycle
+* [4:07](https://www.youtube.com/watch?v=SqHsS737CeA&t=247s) — Setup with application default credentials
+* [5:00](https://www.youtube.com/watch?v=SqHsS737CeA&t=300s) — Why run Claude on Google Cloud: pricing, throughput, data residency
+* [7:24](https://www.youtube.com/watch?v=SqHsS737CeA&t=444s) — The PM: a napkin sketch becomes a wireframe
+* [9:25](https://www.youtube.com/watch?v=SqHsS737CeA&t=565s) — The designer: plan mode before any code
+* [12:16](https://www.youtube.com/watch?v=SqHsS737CeA&t=736s) — The engineer: the Developer Knowledge API and its MCP server
+* [14:18](https://www.youtube.com/watch?v=SqHsS737CeA&t=858s) — Google Cloud skills for the individual building blocks
+* [15:08](https://www.youtube.com/watch?v=SqHsS737CeA&t=908s) — Three sub-agents in parallel: API, ingestion, dashboard
+* [17:09](https://www.youtube.com/watch?v=SqHsS737CeA&t=1029s) — The security engineer: a pre-built security review
+* [19:39](https://www.youtube.com/watch?v=SqHsS737CeA&t=1179s) — The app goes live, and the room rates the talk
+* [21:44](https://www.youtube.com/watch?v=SqHsS737CeA&t=1304s) — Closing the loop with BigQuery and Looker
+
 ════════════════════════════════════════════════════════════
 TRANSCRIPT
 ════════════════════════════════════════════════════════════

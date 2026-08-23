@@ -17,6 +17,24 @@ The central argument of the talk is that the rapid advancement of AI-assisted co
 *   **Metrics for Success:** To measure the effectiveness of these changes, teams should track onboarding ramp-up time, PR cycle times, and the frequency of AI-assisted commits, while ensuring these metrics align with overall product quality and reliability.
 *   **Actionable Advice:** Feng suggests that leaders should identify their team's "noisiest" or most expensive workflow—the one everyone dreads—and critically evaluate whether it can be automated, simplified, or eliminated entirely.
 
+## Chapters
+
+* [0:37](https://www.youtube.com/watch?v=igO8iyca2_g&t=37s) — Fiona Fung on leading Claude Code and CoWork engineering
+* [1:31](https://www.youtube.com/watch?v=igO8iyca2_g&t=91s) — The shift: what served you before may not serve you now
+* [3:53](https://www.youtube.com/watch?v=igO8iyca2_g&t=233s) — Shipping Visual Studio on CD-ROM, and adapting before
+* [5:59](https://www.youtube.com/watch?v=igO8iyca2_g&t=359s) — The processes that quietly stopped working
+* [6:16](https://www.youtube.com/watch?v=igO8iyca2_g&t=376s) — Processes rarely kill themselves
+* [8:32](https://www.youtube.com/watch?v=igO8iyca2_g&t=512s) — Less planning: six-month roadmaps did not survive the new year
+* [9:36](https://www.youtube.com/watch?v=igO8iyca2_g&t=576s) — Technical debates: generate three PRs instead of whiteboarding
+* [11:37](https://www.youtube.com/watch?v=igO8iyca2_g&t=697s) — Doubling down on verification and shifting left
+* [12:38](https://www.youtube.com/watch?v=igO8iyca2_g&t=758s) — Who made this change is now an odd question
+* [14:34](https://www.youtube.com/watch?v=igO8iyca2_g&t=874s) — Where a human is still required: legal, security, taste
+* [15:48](https://www.youtube.com/watch?v=igO8iyca2_g&t=948s) — Team makeup: creative builders and deep systems expertise
+* [18:42](https://www.youtube.com/watch?v=igO8iyca2_g&t=1122s) — The spicy one: every manager starts as an IC
+* [21:58](https://www.youtube.com/watch?v=igO8iyca2_g&t=1318s) — Explicit permission to kill processes
+* [24:10](https://www.youtube.com/watch?v=igO8iyca2_g&t=1450s) — Metrics: ramp-up time, PR cycle time, Claude-assisted commits
+* [26:57](https://www.youtube.com/watch?v=igO8iyca2_g&t=1617s) — Pick your noisiest workflow and ask why it exists
+
 ════════════════════════════════════════════════════════════
 TRANSCRIPT
 ════════════════════════════════════════════════════════════

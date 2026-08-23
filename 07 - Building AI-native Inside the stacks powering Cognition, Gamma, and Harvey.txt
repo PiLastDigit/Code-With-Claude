@@ -18,6 +18,22 @@ The video features a panel discussion with leaders from three AI-driven companie
 *   **Infrastructure Constraints:** Harvey emphasizes the importance of "hard data boundaries" and ethical walls when deploying agents in sensitive environments like law firms to prevent data contamination.
 *   **Future Outlook:** The panelists predict a trend toward AI tool consolidation, the continued relevance of software engineering roles (redefined by AI), and the rise of ambient, proactive intelligence in consumer products.
 
+## Chapters
+
+* [2:35](https://www.youtube.com/watch?v=OFDm3T7pVlc&t=155s) — Introductions, and the core bet each company made
+* [3:06](https://www.youtube.com/watch?v=OFDm3T7pVlc&t=186s) — Harvey's bet: model capability generalising to the legal vertical
+* [3:50](https://www.youtube.com/watch?v=OFDm3T7pVlc&t=230s) — Cognition's bet on autonomous agents, and 5-7x agent usage growth
+* [6:03](https://www.youtube.com/watch?v=OFDm3T7pVlc&t=363s) — Gamma on the 90% of time spent futzing with design
+* [6:41](https://www.youtube.com/watch?v=OFDm3T7pVlc&t=401s) — The moments that made each product possible
+* [8:04](https://www.youtube.com/watch?v=OFDm3T7pVlc&t=484s) — How MCP became an acquisition channel for Gamma
+* [9:45](https://www.youtube.com/watch?v=OFDm3T7pVlc&t=585s) — Cognition: the custom scaffolding they built and then deleted
+* [13:31](https://www.youtube.com/watch?v=OFDm3T7pVlc&t=811s) — Re-architecting at every inflection point
+* [15:13](https://www.youtube.com/watch?v=OFDm3T7pVlc&t=913s) — Invest in observability so you can survive model upgrades
+* [16:18](https://www.youtube.com/watch?v=OFDm3T7pVlc&t=978s) — Speed versus quality, and handing the dial to the user
+* [20:56](https://www.youtube.com/watch?v=OFDm3T7pVlc&t=1256s) — Individual productivity gains are not organisational gains
+* [22:40](https://www.youtube.com/watch?v=OFDm3T7pVlc&t=1360s) — Ethical walls and hard data boundaries at a law firm
+* [24:52](https://www.youtube.com/watch?v=OFDm3T7pVlc&t=1492s) — Lightning round: predictions and parting advice
+
 > Speaker labels are machine-assigned: who is talking comes from automatic
 > diarization and the spellings from Anthropic's published session roster.
 > They are not verified against the recording. Treat a NAME: as a strong hint,

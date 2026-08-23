@@ -18,6 +18,23 @@ Anthropic is introducing "Memory" and "Dreaming" as critical new primitives with
 *   **Real-World Impact:** Early testing with partners like Rakuten and Harvey has shown significant improvements, including a 90% reduction in first-pass mistakes and a sixfold increase in task completion rates.
 *   **Future Vision:** Anthropic views the combination of real-time Memory (for immediate task context) and Dreaming (for long-term knowledge curation) as the foundation for building sophisticated, scalable multi-agent systems that improve continuously over time.
 
+## Chapters
+
+* [2:08](https://www.youtube.com/watch?v=RtywqDFBYnQ&t=128s) — Memory as the next primitive after MCP, harnesses and skills
+* [2:55](https://www.youtube.com/watch?v=RtywqDFBYnQ&t=175s) — What self-managed memory unlocks in multi-agent systems
+* [3:57](https://www.youtube.com/watch?v=RtywqDFBYnQ&t=237s) — Rakuten: 90% fewer first-pass mistakes
+* [4:37](https://www.youtube.com/watch?v=RtywqDFBYnQ&t=277s) — From CLAUDE.md to a memory tool to a file system
+* [5:30](https://www.youtube.com/watch?v=RtywqDFBYnQ&t=330s) — Why memory is modelled as files Claude manages with bash and grep
+* [7:15](https://www.youtube.com/watch?v=RtywqDFBYnQ&t=435s) — Permission scopes and optimistic concurrency for many agents
+* [8:24](https://www.youtube.com/watch?v=RtywqDFBYnQ&t=504s) — Version history, attribution, and a portable standalone API
+* [9:43](https://www.youtube.com/watch?v=RtywqDFBYnQ&t=583s) — The three layers: storage, structure, process
+* [11:21](https://www.youtube.com/watch?v=RtywqDFBYnQ&t=681s) — Introducing dreaming
+* [11:46](https://www.youtube.com/watch?v=RtywqDFBYnQ&t=706s) — Harvey: a sixfold increase in task completion
+* [13:38](https://www.youtube.com/watch?v=RtywqDFBYnQ&t=818s) — Why dreaming runs out of band
+* [14:36](https://www.youtube.com/watch?v=RtywqDFBYnQ&t=876s) — Separating memory quality from task completion
+* [16:28](https://www.youtube.com/watch?v=RtywqDFBYnQ&t=988s) — Dreaming as an index built once and amortised across agents
+* [17:49](https://www.youtube.com/watch?v=RtywqDFBYnQ&t=1069s) — Demo: the SRE agent, and the pattern no single agent noticed
+
 ════════════════════════════════════════════════════════════
 TRANSCRIPT
 ════════════════════════════════════════════════════════════

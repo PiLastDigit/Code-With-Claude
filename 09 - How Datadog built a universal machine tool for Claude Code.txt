@@ -15,6 +15,22 @@ Sesh Nala argues that as AI agents shift from performing narrow coding tasks to 
 - This approach enables the "dark factory" model, where agents operate autonomously within human-defined constraints and verification loops, allowing software to be cultivated and evolved like a living organism.
 - Ultimately, Nala argues that for AI-generated software to reach production-grade reliability, the industry must move away from artisanal, human-written code toward industrialized, high-assurance frameworks that prioritize safety and operational rigor.
 
+## Chapters
+
+* [1:14](https://www.youtube.com/watch?v=EdmuYPBt_EM&t=74s) — What a machine tool is, and why it is the metaphor
+* [2:08](https://www.youtube.com/watch?v=EdmuYPBt_EM&t=128s) — Eighteen months of rising ambition with the models
+* [3:06](https://www.youtube.com/watch?v=EdmuYPBt_EM&t=186s) — Courier, built by hand in 2024, and the rigour it needed
+* [3:56](https://www.youtube.com/watch?v=EdmuYPBt_EM&t=236s) — Bits Evolve: letting code improve itself against a harness
+* [5:53](https://www.youtube.com/watch?v=EdmuYPBt_EM&t=353s) — Helix: a Kafka-compatible system built in days
+* [8:05](https://www.youtube.com/watch?v=EdmuYPBt_EM&t=485s) — Where the bottleneck moved at each step
+* [9:05](https://www.youtube.com/watch?v=EdmuYPBt_EM&t=545s) — From mechanisation to industrialisation
+* [11:48](https://www.youtube.com/watch?v=EdmuYPBt_EM&t=708s) — Everyone promoted three levels up, and the vertigo of it
+* [15:12](https://www.youtube.com/watch?v=EdmuYPBt_EM&t=912s) — Tempur: agents produce specifications, not improvised code
+* [16:10](https://www.youtube.com/watch?v=EdmuYPBt_EM&t=970s) — The dark factory, and the human role in designing it
+* [19:48](https://www.youtube.com/watch?v=EdmuYPBt_EM&t=1188s) — Making the state machine explicit
+* [25:57](https://www.youtube.com/watch?v=EdmuYPBt_EM&t=1557s) — The verifier, and its four levels
+* [29:35](https://www.youtube.com/watch?v=EdmuYPBt_EM&t=1775s) — Software as something cultivated rather than assembled
+
 ════════════════════════════════════════════════════════════
 TRANSCRIPT
 ════════════════════════════════════════════════════════════

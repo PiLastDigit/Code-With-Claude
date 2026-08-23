@@ -19,6 +19,20 @@ This presentation provides an overview of the latest features and updates for Cl
 *   **Routines:** This feature allows users to configure automated workflows triggered by cron schedules, GitHub webhooks, or API endpoints, enabling Claude to perform tasks like issue triaging or report generation without human intervention.
 *   **Enterprise Support:** The team has expanded support for enterprise needs, including better Windows compatibility, cloud provider setup, native installation, and centralized admin settings management.
 
+## Chapters
+
+* [1:02](https://www.youtube.com/watch?v=IMZa42k6L6M&t=62s) — Two themes: developer experience and autonomy
+* [1:41](https://www.youtube.com/watch?v=IMZa42k6L6M&t=101s) — Remote control: start on your machine, pick it up on your phone
+* [3:30](https://www.youtube.com/watch?v=IMZa42k6L6M&t=210s) — Flicker-free rendering and full-screen mode
+* [6:33](https://www.youtube.com/watch?v=IMZa42k6L6M&t=393s) — The revamped desktop and web GUI
+* [8:56](https://www.youtube.com/watch?v=IMZa42k6L6M&t=536s) — Experimental: pinning chapters in a long transcript
+* [11:16](https://www.youtube.com/watch?v=IMZa42k6L6M&t=676s) — Auto mode: a classifier decides which permissions need you
+* [12:15](https://www.youtube.com/watch?v=IMZa42k6L6M&t=735s) — Worktrees, and letting Claude create its own
+* [16:19](https://www.youtube.com/watch?v=IMZa42k6L6M&t=979s) — Auto memory and the MEMORY.md index
+* [18:07](https://www.youtube.com/watch?v=IMZa42k6L6M&t=1087s) — Multi-phase, multi-agent code review
+* [19:13](https://www.youtube.com/watch?v=IMZa42k6L6M&t=1153s) — Routines: cron, webhooks and API triggers
+* [23:48](https://www.youtube.com/watch?v=IMZa42k6L6M&t=1428s) — Enterprise: Windows support, native install, admin settings
+
 > Speaker labels are machine-assigned: who is talking comes from automatic
 > diarization and the spellings from Anthropic's published session roster.
 > They are not verified against the recording. Treat a NAME: as a strong hint,

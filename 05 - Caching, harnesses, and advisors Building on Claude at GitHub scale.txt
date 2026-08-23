@@ -16,6 +16,21 @@ Mario Rodriguez, Chief Product Officer of GitHub, outlines the engineering strat
 * **Rigorous Model Integration:** Integrating new models involves a structured lifecycle that includes updating the multimodal harness, running offline benchmarks, and conducting extensive internal "dogfooding" to gather real-world online evaluation data.
 * **Outcomes Over Activity:** When measuring success, teams should prioritize meaningful outcomes, such as code "survival rate," over simple activity metrics like "acceptance rate," to ensure the AI is providing genuine value rather than just generating code that is later deleted.
 
+## Chapters
+
+* [2:02](https://www.youtube.com/watch?v=y5TmF_6o6xk&t=122s) — The outcomes GitHub optimises for: flow, velocity, trust
+* [3:30](https://www.youtube.com/watch?v=y5TmF_6o6xk&t=210s) — Three things: prompt caching, advisors, and taking new models
+* [4:53](https://www.youtube.com/watch?v=y5TmF_6o6xk&t=293s) — Reading the cache dashboard, and the deltas between models
+* [6:24](https://www.youtube.com/watch?v=y5TmF_6o6xk&t=384s) — Why GitHub runs above a 94% cache hit rate
+* [8:19](https://www.youtube.com/watch?v=y5TmF_6o6xk&t=499s) — No dynamic content in the prefix, and the UUID mistake
+* [9:27](https://www.youtube.com/watch?v=y5TmF_6o6xk&t=567s) — Cache affinity across a multimodal harness
+* [10:17](https://www.youtube.com/watch?v=y5TmF_6o6xk&t=617s) — Debunking the myth that long context costs more
+* [14:02](https://www.youtube.com/watch?v=y5TmF_6o6xk&t=842s) — Brad Abrams on the advisor strategy: Haiku executes, Opus advises
+* [15:52](https://www.youtube.com/watch?v=y5TmF_6o6xk&t=952s) — Live: Copilot with Haiku, with and without the advisor
+* [17:58](https://www.youtube.com/watch?v=y5TmF_6o6xk&t=1078s) — Rubber duck: inserting a critique after the plan, after implementation, before tests
+* [20:22](https://www.youtube.com/watch?v=y5TmF_6o6xk&t=1222s) — How GitHub takes a new model: harness, offline benchmarks, dogfooding
+* [24:36](https://www.youtube.com/watch?v=y5TmF_6o6xk&t=1476s) — Measure outcomes, not activity: survival rate over acceptance rate
+
 > Speaker labels are machine-assigned: who is talking comes from automatic
 > diarization and the spellings from Anthropic's published session roster.
 > They are not verified against the recording. Treat a NAME: as a strong hint,

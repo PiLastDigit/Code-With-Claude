@@ -17,6 +17,21 @@ The central argument of this session is that successfully deploying AI agents in
 *   **The Advisor Strategy:** To balance cost and performance, developers can pair a smaller, inexpensive model (like Sonnet) with a more powerful model (like Opus) that acts as an "advisor" to review work and provide guidance on complex tasks.
 *   **Platform Evolution:** The speaker highlighted additional platform improvements, such as Workload Identity Federation (WIF) for security and the ANT CLI tool, which allows Claude to manage platform resources directly.
 
+## Chapters
+
+* [1:25](https://www.youtube.com/watch?v=7oO37GRhwGk&t=85s) — Who already has an agent in production, and is happy with it
+* [2:02](https://www.youtube.com/watch?v=7oO37GRhwGk&t=122s) — Prompt caching: a 90% discount you may not be taking
+* [3:42](https://www.youtube.com/watch?v=7oO37GRhwGk&t=222s) — Cached tokens do not count against rate limits
+* [4:50](https://www.youtube.com/watch?v=7oO37GRhwGk&t=290s) — The cache dashboard, and the Claude Code caching skill
+* [7:58](https://www.youtube.com/watch?v=7oO37GRhwGk&t=478s) — Demo: a dashboard with a zero percent cache hit rate
+* [9:57](https://www.youtube.com/watch?v=7oO37GRhwGk&t=597s) — Context engineering as a discipline
+* [11:49](https://www.youtube.com/watch?v=7oO37GRhwGk&t=709s) — Tool search tool: defer loading until the model needs it
+* [12:35](https://www.youtube.com/watch?v=7oO37GRhwGk&t=755s) — Programmatic tool calling: let the model write Python to extract what it needs
+* [14:34](https://www.youtube.com/watch?v=7oO37GRhwGk&t=874s) — Compaction, the sledgehammer
+* [21:22](https://www.youtube.com/watch?v=7oO37GRhwGk&t=1282s) — The advisor strategy: Opus intelligence at Sonnet cost
+* [23:34](https://www.youtube.com/watch?v=7oO37GRhwGk&t=1414s) — What the advisor caught that Sonnet missed
+* [26:45](https://www.youtube.com/watch?v=7oO37GRhwGk&t=1605s) — Workload identity federation and the ANT CLI
+
 ════════════════════════════════════════════════════════════
 TRANSCRIPT
 ════════════════════════════════════════════════════════════

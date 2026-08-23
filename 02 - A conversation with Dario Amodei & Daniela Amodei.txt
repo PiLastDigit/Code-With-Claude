@@ -18,6 +18,20 @@ The conversation between Anthropic’s leadership, Dario Amodei and Daniela Amod
 *   **Product Development in the AI Era:** Product strategy at Anthropic is a unique blend of traditional product management and rapid research-driven innovation, where the team must constantly experiment because capabilities that were impossible months ago are now becoming viable.
 *   **Diverse Real-World Impact:** Beyond enterprise use cases, the speakers highlight inspiring applications of Claude, ranging from accelerating biomedical research and assisting mobile doctors in the global South to personal tasks like recovering corrupted wedding photos.
 
+## Chapters
+
+* [2:45](https://www.youtube.com/watch?v=7xco5Qd2Oo8&t=165s) — The rollercoaster emoji: what the exponential feels like
+* [3:45](https://www.youtube.com/watch?v=7xco5Qd2Oo8&t=225s) — Dario on writing the scaling laws down and watching them come true
+* [5:40](https://www.youtube.com/watch?v=7xco5Qd2Oo8&t=340s) — Planning for 10x and getting 80x
+* [7:41](https://www.youtube.com/watch?v=7xco5Qd2Oo8&t=461s) — Why developers are the most important users of Claude
+* [11:12](https://www.youtube.com/watch?v=7xco5Qd2Oo8&t=672s) — The one-person billion-dollar company, seven months out
+* [13:22](https://www.youtube.com/watch?v=7xco5Qd2Oo8&t=802s) — From single agents to teams and organizations
+* [14:35](https://www.youtube.com/watch?v=7xco5Qd2Oo8&t=875s) — Amdahl's law: what you did not speed up
+* [18:16](https://www.youtube.com/watch?v=7xco5Qd2Oo8&t=1096s) — Hold, light and shade: the mission and the risk
+* [23:04](https://www.youtube.com/watch?v=7xco5Qd2Oo8&t=1384s) — Building products for AI versus building products with AI
+* [25:05](https://www.youtube.com/watch?v=7xco5Qd2Oo8&t=1505s) — Why products saturate when models get too good
+* [30:47](https://www.youtube.com/watch?v=7xco5Qd2Oo8&t=1847s) — Favourite things people built: mobile doctors, wedding photos, tomato plants
+
 > Speaker labels are machine-assigned: who is talking comes from automatic
 > diarization and the spellings from Anthropic's published session roster.
 > They are not verified against the recording. Treat a NAME: as a strong hint,

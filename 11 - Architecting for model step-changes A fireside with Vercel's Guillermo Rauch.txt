@@ -16,6 +16,20 @@ The central argument of this discussion is that AI and agentic technology are fu
 *   **Future of Autonomous Organizations:** The discussion suggests a future where agents do more than just write code; they could eventually manage entire business processes, such as marketing, support, and operations, effectively allowing humans to act as board members overseeing autonomous companies.
 *   **Democratizing Development:** By lowering the cost and complexity of software creation, Vercel is widening the aperture of who can build, with one-third of their total sign-ups now originating from v0, empowering "developer-adjacent" personas to contribute directly to software production.
 
+## Chapters
+
+* [2:44](https://www.youtube.com/watch?v=bJKdXhnw7NU&t=164s) — Vercel's original mission: removing friction between idea and deployment
+* [4:18](https://www.youtube.com/watch?v=bJKdXhnw7NU&t=258s) — Agentic infrastructure, and a cloud that heals itself
+* [5:59](https://www.youtube.com/watch?v=bJKdXhnw7NU&t=359s) — Unlimited token budget, and what people built with it
+* [6:51](https://www.youtube.com/watch?v=bJKdXhnw7NU&t=411s) — The software factory: Leap for design, DeepSec for security
+* [11:16](https://www.youtube.com/watch?v=bJKdXhnw7NU&t=676s) — The day Opus dropped, and why they could delete code
+* [13:00](https://www.youtube.com/watch?v=bJKdXhnw7NU&t=780s) — Credit spend doubled: people building more complete products
+* [13:50](https://www.youtube.com/watch?v=bJKdXhnw7NU&t=830s) — One third of signups now come through v0
+* [14:32](https://www.youtube.com/watch?v=bJKdXhnw7NU&t=872s) — Where they over-engineered: too many tools, too many fixed paths
+* [16:38](https://www.youtube.com/watch?v=bJKdXhnw7NU&t=998s) — A computer for every agent
+* [17:44](https://www.youtube.com/watch?v=bJKdXhnw7NU&t=1064s) — Don't be the manager who micromanages the model
+* [19:16](https://www.youtube.com/watch?v=bJKdXhnw7NU&t=1156s) — From synchronous to asynchronous, and the board-member metaphor
+
 > Speaker labels are machine-assigned: who is talking comes from automatic
 > diarization and the spellings from Anthropic's published session roster.
 > They are not verified against the recording. Treat a NAME: as a strong hint,

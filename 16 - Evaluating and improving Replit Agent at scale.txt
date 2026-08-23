@@ -18,6 +18,22 @@ The central argument of the presentation is that as AI agents become more sophis
 - The speaker emphasizes that while agents can automate much of the debugging and patching process, human "taste" and product philosophy remain critical for prioritizing which issues to fix and determining the ultimate user experience.
 - The presentation concludes by encouraging the broader AI community to adopt these continuous evaluation practices and contribute to open-source initiatives like ByteBench to collectively advance the field of AI-driven coding.
 
+## Chapters
+
+* [0:55](https://www.youtube.com/watch?v=snroDwX1-JU&t=55s) — Vibe coding as the extreme case: a prompt and nothing else
+* [2:18](https://www.youtube.com/watch?v=snroDwX1-JU&t=138s) — Why evaluation has to become continuous
+* [3:50](https://www.youtube.com/watch?v=snroDwX1-JU&t=230s) — Two pillars: offline benchmarks and online production signal
+* [5:29](https://www.youtube.com/watch?v=snroDwX1-JU&t=329s) — Where SWE-bench does not fit vibe coding
+* [5:56](https://www.youtube.com/watch?v=snroDwX1-JU&t=356s) — Launching ViBench
+* [7:52](https://www.youtube.com/watch?v=snroDwX1-JU&t=472s) — Five pairings, including vibe-on-vibe
+* [8:58](https://www.youtube.com/watch?v=snroDwX1-JU&t=538s) — How the grading works when the surface is greenfield
+* [11:27](https://www.youtube.com/watch?v=snroDwX1-JU&t=687s) — Results: the frontier gap, and models extending their own code
+* [14:50](https://www.youtube.com/watch?v=snroDwX1-JU&t=890s) — Clustering millions of production traces
+* [16:51](https://www.youtube.com/watch?v=snroDwX1-JU&t=1011s) — Telescope: discover, patch, evaluate, A/B test, ship
+* [18:37](https://www.youtube.com/watch?v=snroDwX1-JU&t=1117s) — A real long-tail failure that logs would never have surfaced
+* [19:46](https://www.youtube.com/watch?v=snroDwX1-JU&t=1186s) — Where human taste still decides
+* [22:26](https://www.youtube.com/watch?v=snroDwX1-JU&t=1346s) — Why they open-sourced it, and how to build your own Telescope
+
 > Speaker labels are machine-assigned: who is talking comes from automatic
 > diarization and the spellings from Anthropic's published session roster.
 > They are not verified against the recording. Treat a NAME: as a strong hint,

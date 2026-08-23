@@ -17,6 +17,21 @@ The video demonstrates how integrating autonomous AI agents, specifically Claude
 *   **Enhanced CLI Experience:** The presenters highlight the "no-flicker" mode in the Claude Code CLI, which uses virtualized rendering to improve performance and usability, allowing for a more seamless interaction with the agent.
 *   **Future Vision:** The ultimate goal is a fully autonomous loop where AI agents can handle everything from customer support tickets to feature implementation, with humans acting primarily as curators and final approvers of the AI's output.
 
+## Chapters
+
+* [1:41](https://www.youtube.com/watch?v=DlTCu_pNDHE&t=101s) — How Bun uses Claude Code to maintain Bun
+* [2:12](https://www.youtube.com/watch?v=DlTCu_pNDHE&t=132s) — RoboBun reproduces every issue before a human looks at it
+* [2:47](https://www.youtube.com/watch?v=DlTCu_pNDHE&t=167s) — The hard requirement: no PR without a passing test
+* [3:52](https://www.youtube.com/watch?v=DlTCu_pNDHE&t=232s) — RoboBun is now a bigger contributor to Bun than Jarred is
+* [5:01](https://www.youtube.com/watch?v=DlTCu_pNDHE&t=301s) — CodeRabbit for style, Claude Code review for subtle bugs
+* [8:19](https://www.youtube.com/watch?v=DlTCu_pNDHE&t=499s) — Why CLAUDE.md is the thing that makes it maintainable
+* [10:23](https://www.youtube.com/watch?v=DlTCu_pNDHE&t=623s) — Reading CI errors and closing the full loop
+* [12:59](https://www.youtube.com/watch?v=DlTCu_pNDHE&t=779s) — Reviewing the PRs the agents just opened
+* [20:26](https://www.youtube.com/watch?v=DlTCu_pNDHE&t=1226s) — Hill climbing: give it a metric and a way to verify
+* [22:21](https://www.youtube.com/watch?v=DlTCu_pNDHE&t=1341s) — Auto mode, and why permission prompts killed the workflow
+* [25:30](https://www.youtube.com/watch?v=DlTCu_pNDHE&t=1530s) — Where the bottleneck goes next: deeper verification, then planning
+* [27:33](https://www.youtube.com/watch?v=DlTCu_pNDHE&t=1653s) — When PRs become suggestions you can decline
+
 > Speaker labels are machine-assigned: who is talking comes from automatic
 > diarization and the spellings from Anthropic's published session roster.
 > They are not verified against the recording. Treat a NAME: as a strong hint,

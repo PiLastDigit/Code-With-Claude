@@ -19,6 +19,20 @@ The central argument of the presentation is that as AI models become increasingl
 *   **Self-Improving Workflows:** The "WCF" (Work on the Factory) skill encourages agents to report and fix their own workflow issues, with the system using automated testing across multiple agent instances to ensure solutions are robust before human review.
 *   **Generalization:** The speaker concludes that while these patterns were developed within the coding domain, they are generalizable to other fields, suggesting that the future of work involves programming the systems that allow agents to continuously improve themselves.
 
+## Chapters
+
+* [0:21](https://www.youtube.com/watch?v=BbYSGxtsMic&t=21s) — The bottleneck is no longer model intelligence
+* [0:56](https://www.youtube.com/watch?v=BbYSGxtsMic&t=56s) — Three stages: tools, new habits, then the system that builds the system
+* [1:51](https://www.youtube.com/watch?v=BbYSGxtsMic&t=111s) — Onboarding an agent the way you onboard a developer
+* [2:49](https://www.youtube.com/watch?v=BbYSGxtsMic&t=169s) — The cloud onboarding agent explores your repo to learn how to run it
+* [4:05](https://www.youtube.com/watch?v=BbYSGxtsMic&t=245s) — AnyDev CLI, and the feedback loop it created
+* [4:51](https://www.youtube.com/watch?v=BbYSGxtsMic&t=291s) — Principles of autonomy: give the agents eyes
+* [5:51](https://www.youtube.com/watch?v=BbYSGxtsMic&t=351s) — Computer use as the next foundational primitive
+* [6:21](https://www.youtube.com/watch?v=BbYSGxtsMic&t=381s) — Why GUIs are a video game, not chess
+* [8:24](https://www.youtube.com/watch?v=BbYSGxtsMic&t=504s) — Security through freedom
+* [10:25](https://www.youtube.com/watch?v=BbYSGxtsMic&t=625s) — Agent experience: agents report what is broken
+* [11:47](https://www.youtube.com/watch?v=BbYSGxtsMic&t=707s) — The WCF skill, and validating fixes across many agents
+
 ════════════════════════════════════════════════════════════
 TRANSCRIPT
 ════════════════════════════════════════════════════════════
