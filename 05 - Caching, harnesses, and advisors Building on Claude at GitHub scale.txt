@@ -16,11 +16,16 @@ Mario Rodriguez, Chief Product Officer of GitHub, outlines the engineering strat
 * **Rigorous Model Integration:** Integrating new models involves a structured lifecycle that includes updating the multimodal harness, running offline benchmarks, and conducting extensive internal "dogfooding" to gather real-world online evaluation data.
 * **Outcomes Over Activity:** When measuring success, teams should prioritize meaningful outcomes, such as code "survival rate," over simple activity metrics like "acceptance rate," to ensure the AI is providing genuine value rather than just generating code that is later deleted.
 
+> Speaker labels are machine-assigned: who is talking comes from automatic
+> diarization and the spellings from Anthropic's published session roster.
+> They are not verified against the recording. Treat a NAME: as a strong hint,
+> not a citation.
+
 ════════════════════════════════════════════════════════════
 TRANSCRIPT
 ════════════════════════════════════════════════════════════
 
-Please welcome to the stage chief product officer of GitHub, Mario Rodriguez. Hello. Hello, It's great to be back at Code with Claude. I love developer conferences. You know, they're a little bit messy.
+ANNOUNCER: Please welcome to the stage chief product officer of GitHub, Mario Rodriguez. MARIO RODRIGUEZ: Hello. Hello, It's great to be back at Code with Claude. I love developer conferences. You know, they're a little bit messy.
 
 They're vibrant. They're still dev first, not agent first, and this is where we took half fun. We're here to have fun and to learn together. Now you're here because you want to learn more about the platform, and I'm here to kind of share with you some of the top things that we end up doing to running Copilot and all of our inference on top of this platform. Now I wanna get started with the why.
 
@@ -78,7 +83,7 @@ We have Versus Code, which is one of the the dashboards that we show you there, 
 
 We shipped something, we improved or not. Now another thing that I was telling you about is, okay, if you got prompt caching already done, what about making sure that the right intelligence hits the user at the right time? And for that, Anthropic and I Anthropic and us have been partnering on this adviser model. And what I want to do is bring Brad Adams from the Anthropic team to talk more about it. Go ahead.
 
-Brad. Thank you, Mario. Oh. Thank you, Mario, for being here. It's so great to have a partner like GitHub Copilot.
+Brad. BRAD ABRAMS: Thank you, Mario. Oh. Thank you, Mario, for being here. It's so great to have a partner like GitHub Copilot.
 
 We get the Copilot team gives such great feedback. We give them very little time to evaluate models before we launch and they give great, insightful feedback and it's true on our API features as well. In fact, if you are using the Claude platform, a lot of what you are seeing is thanks to the things Mario and his team are doing on Copilot. And it's actually one of those pieces of feedback that I want to talk about today. One of the pieces of feedback we got from the Copilot team is they really wanted Opus level intelligence but it's at Haiku-level prices.
 
@@ -92,7 +97,7 @@ Yeah, let's switch over to the demo machine. And what you're seeing is GitHub Co
 
 On the right side, the Opus Advisor just returned and because it's Opus, it actually knows this bit of data and so it's able to bring that back into context And now we're done with Opus and everything's still in Haiku but because it got that little bit of hint, the right hand side has finished here. So we see the right hand side finished. The left is still trying to figure out which way is up here. So just that little bit of hint from Opus, very small cost, very small latency hit makes Haiku so much more powerful. So this is an experiment we are doing in the GitHub Copilot CLI that we'll release soon and looking forward to you playing with it.
 
-Thank you and welcome back, Mario. Thank you. Thank you. I love some Opus Intelligence at Haiku prices. That's kind of what we gotta do.
+Thank you and welcome back, Mario. MARIO RODRIGUEZ: Thank you. Thank you. I love some Opus Intelligence at Haiku prices. That's kind of what we gotta do.
 
 Okay. So what we show you is an adviser model. There's another algorithm that you could actually employ as well as you're tinkering more how to get the right call to the right intelligence. And we call you know, we're GitHub. We're a little bit weird on some of the things.
 

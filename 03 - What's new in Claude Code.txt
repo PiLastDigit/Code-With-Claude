@@ -19,11 +19,16 @@ This presentation provides an overview of the latest features and updates for Cl
 *   **Routines:** This feature allows users to configure automated workflows triggered by cron schedules, GitHub webhooks, or API endpoints, enabling Claude to perform tasks like issue triaging or report generation without human intervention.
 *   **Enterprise Support:** The team has expanded support for enterprise needs, including better Windows compatibility, cloud provider setup, native installation, and centralized admin settings management.
 
+> Speaker labels are machine-assigned: who is talking comes from automatic
+> diarization and the spellings from Anthropic's published session roster.
+> They are not verified against the recording. Treat a NAME: as a strong hint,
+> not a citation.
+
 ════════════════════════════════════════════════════════════
 TRANSCRIPT
 ════════════════════════════════════════════════════════════
 
-Please welcome to the stage, member of technical staff, Anthropic, Dickson Tsai. Alright. Good morning, everyone. I'm Dickson from the Claude Code team. I work on plug ins and Claude Code on the web.
+ANNOUNCER: Please welcome to the stage, member of technical staff, Anthropic, Dickson Tsai. ANNOUNCER: Alright. DICKSON TSAI: Good morning, everyone. I'm Dickson from the Claude Code team. I work on plug ins and Claude Code on the web.
 
 This session is about what's new in Claude Code. If you've seen our public changelog recently, you'll know that our team ships a lot. It could be kinda hard to keep up. So today, I wanna step back from the changelog and give you the story, how our feat new features fit together and why we love them. Our new features fall into two themes.
 
